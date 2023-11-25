@@ -1,0 +1,47 @@
+.addFormMain {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.addForm_box {
+  width: 70%;
+  height: 500px;
+  border: 2px solid black;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  label {
+    display: block;
+  }
+}
+table {
+  display: block;
+  text-align: center;
+  border: 1px solid green;
+  tr {
+    // border: 1px solid green;
+    width: 50%;
+  }
+}
+td {
+  width: 20%;
+  text-align: left;
+  border: 1px solid green;
+}
+
+.AddEmployee__addButton {
+  margin: 8px;
+  padding: 8px 16px;
+  background-color: #efefef;
+  box-shadow: none;
+  outline: none;
+  border: 2px solid black;
+  color: black;
+  border-radius: 16px;
+}
+
+.AddEmployee__addButton:hover {
+  background-color: red;
+}

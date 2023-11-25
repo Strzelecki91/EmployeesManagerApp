@@ -1,0 +1,41 @@
+.Not_Found_Body {
+    background-color: lightblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+.Not_Found_Paragraph {
+    font-family: verdana;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.Not_Found_Error {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.Not_Found_Link {
+    text-decoration: none;
+    color: black;
+}
+
+.Not_Found__Button {
+    margin: 8px;
+    padding: 8px 16px;
+    background-color: #efefef;
+    box-shadow: none;
+    outline: none;
+    border: 2px solid black;
+    color: black;
+    border-radius: 16px;
+  }
+
+  .Not_Found__Button:hover {
+    background-color: red;
+  }
